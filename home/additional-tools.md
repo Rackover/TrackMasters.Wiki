@@ -7,7 +7,7 @@ This page contains a few tools related to TrackMasters.
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 # Lego Stunt Rally track converter (LSRCONV.EXE)
-![Screenshot 2021-02-28 234255.png](/_contents/tools/Screenshot 2021-02-28 234255.png)
+![Screenshot2021-02-28 234255.png](/_contents/tools/Screenshot 2021-02-28 234255.png)
 
 This tool converts tracks from Lego Stunt Rally (.trk format) to the TrackMasters format. It produces .PNG files with a sample image.
 
