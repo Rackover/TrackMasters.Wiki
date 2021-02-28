@@ -3,7 +3,8 @@
 This page contains a few tools related to TrackMasters.
 
 # Track Inspector (INSPECTR.EXE)
-
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 # Lego Stunt Rally track converter (LSRCONV.EXE)
 ![Screenshot 2021-02-28 234255.png](/_contents/tools/Screenshot 2021-02-28 234255.png)
