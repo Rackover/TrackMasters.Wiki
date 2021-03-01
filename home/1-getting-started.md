@@ -15,7 +15,6 @@ Depending on the kind of data these PAK contains, the capacity to play races wit
 
 # Setup
 * A modpack being nothing but a packed folder, you need to **create a directory** where you will put the files for your mod. You should name this folder after the mod you want to make (*for example, "My super mod"*), but for the rest of this documentation we will refer to it as the **Source Directory**.
-* You should take a close look at `SOFTDATA` directory from the game's root directory. The game root's directory location depends on your installation, but you will usually find it in `C:\Program Files(x86)\Steam\steamapps\common\LS_TrackMasters\`. This directory contains clear data that is used by the game, and that you can override with your mod by (*for example*) creating files with the same name. More about this in [2. The Virtual File system](/home/2.-the-virtual-file-system.md) .
 
 :::info Debugging errors
 You can check for errors in the loading of your modpacks or modded assets in the **log file**, namely **TrackMasters.log**.
