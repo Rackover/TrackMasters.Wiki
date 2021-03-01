@@ -25,7 +25,7 @@ The LSR starting line is also much tinier, as it accounts for less players (4) t
 On some tracks however, if standard 1x1 straight roads surround the starting line, the converter may remove one of them to make way for the TM Starting Line and lay it at the correct place. The track will however still be marked as `UNFINISHABLE` until it is opened in the TM editor and saved.
 
 ## Correspondance sheet
-Here is the Lego Stunt Rally - TrackMasters correspondance sheet used in the** 1.38 version** of TrackMasters. As new track parts get added to TrackMasters, this table might evolve.
+Here is the Lego Stunt Rally - TrackMasters correspondance sheet used in the **1.38 version** of TrackMasters. As new track parts get added to TrackMasters, this table might evolve.
 
 | LSR ID (XID) | TM ID | DESCRIPTION |
 | ---- | -------- | -------- |
