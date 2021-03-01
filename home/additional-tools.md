@@ -20,6 +20,12 @@ The number shown in each written (blue) cell corresponds to the ID of the track 
 Custom elements have a different ID system and instead reference the name of the custom trackpart they correspond to, and therefore aren't represented in this grid.
 
 The custom elements of a track can be shown by clicking the "View dependencies..." button.
+
+## Download
+The latest Track Inspector is normally inluded with the game files, in the root game folder. 
+If you are missing the file for any reason however, you can download it here.
+
+[Download INSPECTR.EXE](/_contents/downloadable/INSPECTR.EXE)
 # Lego Stunt Rally track converter (LSRCONV.EXE)
 This tool converts tracks from Lego Stunt Rally (.trk format) to the TrackMasters format. It produces .PNG files with a sample image.
 
@@ -113,7 +119,12 @@ Here is the Lego Stunt Rally - TrackMasters correspondance sheet used in the **1
 | 70 | STRAIGHT_ROAD_ID| Lamp Track |
 | 71 | BLOCK_ID| Double Height Block (unused) |
 | 72 | BLOCK_ID| Triple Height Block (unused) |
-| 73 | ABSENT  |
+| 73 | ABSENT  | |
 
+## Download
+The latest LSR Converter is normally inluded with the game files, in the root game folder. 
+If you are missing the file for any reason however, you can download it here.
+
+[Download LSRCONV.EXE](/_contents/downloadable/LSRCONV.EXE)
 
 
