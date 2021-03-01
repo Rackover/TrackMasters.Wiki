@@ -5,16 +5,16 @@ This page contains a few tools related to TrackMasters.
 # Track Inspector (INSPECTR.EXE)
 The Track Inspector can open any TrackMasters track and display all of its metadata, aswell as the custom elements it contains and relies upon. This metadata most notably contains the scores, validity, version and author name. 
 
-![track inspector.png >](/_contents/tools/track%20inspector.png) 
+![track inspector.png](/_contents/tools/track%20inspector.png) 
 
 This tool is fairly basic and can only be used to view data, and **cannot** modify the opened TrackFile.
 ## Usage
 To use the inspector, simply drag and drop any TrackMasters track inside the window. Only one file can be inspected at a time.
 
 ## Layout viewer
-![tracklayout.png](/_contents/tools/tracklayout.png)
-
 The layout viewer shows exactly what is written to the grid, for every layer (from ground to top, which is the third layer, for 4 layers in total). Every track element occupies exactly one cell, whatever size it is, and so the viewer will only show the cell they are written in as it is unaware of the size of each element.
+
+![tracklayout.png](/_contents/tools/tracklayout.png)
 
 The number shown in each written (blue) cell corresponds to the ID of the track element.
 Custom elements have a different ID system and instead reference the name of the custom trackpart they correspond to, and therefore aren't represented in this grid.
