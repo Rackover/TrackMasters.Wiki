@@ -3,11 +3,19 @@
 This page contains a few tools related to TrackMasters.
 
 # Track Inspector (INSPECTR.EXE)
+![track inspector.png](/_contents/tools/track inspector.png)
 
+The Track Inspector can open any TrackMasters track and display all of its metadata, aswell as the custom elements it contains and relies upon. This metadata most notably contains the scores, validity, version and author name. 
+
+This tool is fairly basic and can only be used to view data, and **cannot** modify the opened TrackFile.
+## Usage
+To use the inspector, simply drag and drop any TrackMasters track inside the window. Only one file can be inspected at a time.
 # Lego Stunt Rally track converter (LSRCONV.EXE)
-![Screenshot 2021-02-28 234255.png](/_contents/tools/Screenshot%202021-02-28%20234255.png)
+![Track importer.png](/_contents/tools/Track importer.png)
 
 This tool converts tracks from Lego Stunt Rally (.trk format) to the TrackMasters format. It produces .PNG files with a sample image.
+## Usage
+To use the converter, simply click "Select LSR track..." and browse to a valid .trk file. 
 
 ## Caveats
 As LSR contains more and different track elements than TM, a lot of elements cannot be translated and are removed when converting from one format to the other.
