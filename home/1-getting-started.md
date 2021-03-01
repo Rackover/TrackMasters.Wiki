@@ -1,6 +1,6 @@
 <!-- TITLE:1. Getting started -->
 
-This post aswell as its two follow-ups ([2. The Virtual File system](/read/home/2.-the-virtual-file-system.md) and [3. Packing](/read/home/3-packing.md)) serves as a tutorial to get started with TrackMasters's modding. 
+This post aswell as its two follow-ups ([2. The Virtual File system](/home/2.-the-virtual-file-system.md) and [3. Packing](/home/3-packing.md)) serves as a tutorial to get started with TrackMasters's modding. 
 In this section, we will outline what kind of tools and setup you will need to create a mod.
 
 ## General information
