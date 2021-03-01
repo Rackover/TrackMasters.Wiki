@@ -7,7 +7,7 @@ The Track Inspector can open any TrackMasters track and display all of its metad
 
 ![track inspector.png](/_contents/tools/track%20inspector.png) 
 
-This tool is fairly basic and can only be used to view data, and **cannot** modify the opened TrackFile.
+This tool is fairly basic and can only be used to view data, and **cannot** modify the opened track file.
 ## Usage
 To use the inspector, simply drag and drop any TrackMasters track inside the window. Only one file can be inspected at a time.
 
