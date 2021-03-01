@@ -3,7 +3,7 @@
 This page contains a few tools related to TrackMasters.
 
 # Track Inspector (INSPECTR.EXE)
-![track inspector.png](/_contents/tools/track%20inspector.png)
+![track inspector.png >](/_contents/tools/track%20inspector.png)
 
 The Track Inspector can open any TrackMasters track and display all of its metadata, aswell as the custom elements it contains and relies upon. This metadata most notably contains the scores, validity, version and author name. 
 
