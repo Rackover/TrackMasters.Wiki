@@ -62,6 +62,6 @@ Clicking on it will give you informations about which mod is loaded and what you
 A sample mod is provided with the game to show you how to make a simple mod that adds one track element to the game.
 This modpack is called "LOUVESYSTEMS' STATUE" and adds a wolf statue to the game. You can find it in the **SAMPLEMP** folder, in the game's root directory.
 You can also download it here:
-[LOUVESYSTEMS' STATUE.PAK](/_contents/modpacks/LOUVESYSTEMS' STATUE.PAK)
+[LOUVESYSTEMS' STATUE.PAK](/_contents/modpacks/LOUVESYSTEMS'%20STATUE.PAK)
 
 ![statue.png](/_contents/statue.png)
