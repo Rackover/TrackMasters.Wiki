@@ -44,3 +44,16 @@ To pack up your mod, simply **drag & drop** your work directory ontop of the mod
 ![pak2.png](/_contents/tools/pak2.png)
 
 You can then safely close the window. A modpack, named after your mod, should now be present in your Mods Directory.
+
+![modfinished.png](/_contents/tools/modfinished.png)
+
+That's it! You're done.
+The game will load your mods content on start and use it throughout.
+
+If you want to make sure your mod has been correctly loaded, **look for the wrench icon at the main menu.** 
+
+![wrench.png](/_contents/tools/wrench.png)
+
+Clicking on it will give you informations about which mod is loaded and what your current LEVEL is.
+
+![modopacks.png](/_contents/tools/modopacks.png)
