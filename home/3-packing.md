@@ -10,19 +10,18 @@ It should contain the following informations:
 * **Author** of the mod (your name or pseudonym)
 
 Here is an example of content for the meta file:
-
 ```
----
 Name: LouveSystems' Statue
 Version: 1
 Author: Louve
 ```
 
 :::info
-
-
+Informations in the meta file should be separated with a line break, and any extra information that is not in any of these three fields will be ignored by the game.
 :::
-
 # PAKing up
+Right before packing up, your Work directory should look something like this:
+
+To pack up, you need
 
 [PAK.EXE](/_contents/downloadable/PAK.EXE)
