@@ -12,7 +12,7 @@ Another important file can be found in that folder: `AI/TEMPLATE.LUA` is a scrip
 ## Loading your script
 Whichever script you make must be placed at the virtual path `AI/<your filename>.LUA` in your modpack, but that's not all.
 Since only the first script found in that folder will be loaded by the game, you cannot give this script a filename that goes **after** DEFAULT, otherwise it will be last in the file order.
-It is recommanded that you prefix its name with a number (for example:  `0_MyScript.LUA`  instead of `MyScript.LUA`) to make sure it is loaded first.
+It is recommended that you prefix its name with a number (for example:  `0_MyScript.LUA`  instead of `MyScript.LUA`) to make sure it is loaded first.
 # Magic functions
 Four functions are called by the game from your script at different occasions, if they're found. Most of your AI logic will therefore be in either one of these functions. They can all be found in `TEMPLATE.LUA` as a starting point. 
 Let's take a look at them:
