@@ -4,7 +4,8 @@ Once you have every file you want to override or add to the game in your Work Di
 Before packing up your mod, you should add a **meta file** to your Work Directory that describes the name of the mod and its version.
 # The meta file (META.YML)
 The meta file is a text file that you can create with notepad, for example, and that should be placed at the root of your Work Directory.
-It should contain the following informations:
+
+It should always be named `META.YML`, and contain the following informations:
 * **Name** of your mod
 * **Version** of your mod (a number)
 * **Author** of the mod (your name or pseudonym)
@@ -21,6 +22,18 @@ Informations in the meta file should be separated with a line break, and any ext
 :::
 # PAKing up
 Right before packing up, your Work directory should look something like this:
+* At the root directory, `META.YML`
+* One or more files/folders that you wish to include in your modpack
+
+For example, a mod that replaces the main menu music with another one and does nothing else, would look something like this:
+```└───My mod
+    │   META.YML
+    │
+    └───SOUND
+        │
+        └───BANK
+                bgm_frontend.ogg
+```
 
 To pack up, you need
 
