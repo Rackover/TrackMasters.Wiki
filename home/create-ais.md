@@ -42,8 +42,8 @@ end
 ```
 
 :::info
-	**In the base game**
-	In TrackMasters, what the current AI code in `DEFAULT.LUA` does to handle the bots is very simple: it checks where the next track element is, and depending on the position of this next track element (if it's on the left or on the right of the vehicle), it sets the virtual the joystick `x` to either 1 or -1. The throttling (`y`) is always set to 1 so that the car always goes forward, except when the car is turning heavily at which point that value is lowered so that the car may go slower. The base game AI can never backpedal.
+**In the base game**
+In TrackMasters, what the current AI code in `DEFAULT.LUA` does to handle the bots is very simple: it checks where the next track element is, and depending on the position of this next track element (if it's on the left or on the right of the vehicle), it sets the virtual the joystick `x` to either 1 or -1. The throttling (`y`) is always set to 1 so that the car always goes forward, except when the car is turning heavily at which point that value is lowered so that the car may go slower. The base game AI can never backpedal.
 :::
 
 ## Other inputs
@@ -53,8 +53,8 @@ Three other inputs can be triggered by your code at any point:
 * **Replacing the car on track**: This is very useful if the car is stuck, or not moving at all. At any point, you can call `REPLACE_CAR()` to put the car back on track.
 
 :::info
-	**In the base game**
-	The default AI code triggers a honk each time their car collisions with another car, only if that other car is actually behind them in the race. They trigger a powerup as soon as they have one, and they replace their car on the track if they've been for too long at a too low speed (which may indicate that the car is stuck).
+**In the base game**
+The default AI code triggers a honk each time their car collisions with another car, only if that other car is actually behind them in the race. They trigger a powerup as soon as they have one, and they replace their car on the track if they've been for too long at a too low speed (which may indicate that the car is stuck).
 :::
 
 # Exposed functions
