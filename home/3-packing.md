@@ -37,7 +37,7 @@ For example, a mod that replaces the main menu music with another one and does n
 
 Packing up is accomplished by the** mod packer (PAK.EXE)** that is provided with TrackMasters, and normally always located in your Mods Directory. If for some reason you are missing it, [you can download it by clicking here.](/_contents/downloadable/PAK.EXE) You should place it in your Mods Directory.
 
-![mod folder screenshot.png](/_contents/tools/mod folder screenshot.png)
+![mod folder screenshot.png](/_contents/tools/mod%20folder%20screenshot.png)
 
 To pack up your mod, simply **drag & drop** your work directory ontop of the mod packer (PAK.EXE). The packing process should take place automatically and present you with a screen similar to this one :
 
