@@ -50,6 +50,7 @@ You can then safely close the window. A modpack, named after your mod, should no
 That's it! You're done.
 The game will load your mods content on start and use it throughout.
 
+# Checking the loaded modpacks ingame
 If you want to make sure your mod has been correctly loaded, **look for the wrench icon at the main menu.** 
 
 ![wrench.png](/_contents/tools/wrench.png)
