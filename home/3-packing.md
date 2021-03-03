@@ -64,3 +64,4 @@ This modpack is called "LOUVESYSTEMS' STATUE" and adds a wolf statue to the game
 You can also download it here:
 [LOUVESYSTEMS' STATUE.PAK](/_contents/modpacks/LOUVESYSTEMS' STATUE.PAK)
 
+![statue.png](/_contents/statue.png)
