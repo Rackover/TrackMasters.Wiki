@@ -36,11 +36,11 @@ For example, if you `SET_AI_INPUTS` with a `x` of zero and a `y` of one, the bot
 
 ```
 function COMPUTE_AI()
-    local ai_inputs = { 
-				x = 0,
-				y = 1 
-		}
-    SET_AI_INPUTS(ai_inputs)
+  local ai_inputs = { 
+			x = 0,
+			y = 1 
+  }
+  SET_AI_INPUTS(ai_inputs)
 end
 ```
 
