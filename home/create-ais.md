@@ -54,3 +54,6 @@ Three other inputs can be triggered by your code at any point:
 
 :::info
 	**In the base game**
+	The default AI code triggers a honk each time their car collisions with another car, only if that other car is actually behind them in the race. They trigger a powerup as soon as they have one, and they replace their car on the track if they've been for too long at a too low speed (which may indicate that the car is stuck).
+:::
+
