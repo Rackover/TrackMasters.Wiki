@@ -35,6 +35,5 @@ For example, a mod that replaces the main menu music with another one and does n
                 bgm_frontend.ogg
 ```
 
-To pack up, you need
+Packing up is accomplished by the** mod packer (PAK.EXE)** that is provided with TrackMasters, and normally always located in your Mods Directory. If for some reason you are missing it, [you can download it by clicking here.](/_contents/downloadable/PAK.EXE) You should place it in your Mods directory.
 
-[PAK.EXE](/_contents/downloadable/PAK.EXE)
