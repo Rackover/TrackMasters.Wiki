@@ -8,7 +8,7 @@ TrackMasters bots' behaviour is defined in `Lua`, a simple and accessible progra
 All bots exactly in the same way, by following the instructions taken from the **first .LUA file found** in the `AI` folder.
 
 By default, that AI folder is the one from the soft data path, and that file is `AI/DEFAULT.LUA`.
-Another important file can be found in that folder: `AI/TEMPLATE.LUA` is a script containing no instruction for the bot but all the function names, although empty, aswell as the description for the additional commands the game provides.
+Another important file can be found in that folder: `AI/TEMPLATE.LUA` is a script containing no instruction for the bot but all the function names, although empty, aswell as the description for the additional commands the game provides. If you do not have that file, you can download it **[here. (TEMPLATE.LUA)](/_contents/downloadable/TEMPLATE.LUA)**.
 ## Loading your script
 Whichever script you make must be placed at the virtual path `AI/<your filename>.LUA` in your modpack, but that's not all.
 Since only the first script found in that folder will be loaded by the game, you cannot give this script a filename that goes **after** DEFAULT, otherwise it will be last in the file order.
@@ -88,3 +88,4 @@ In addition to  `HAS_POWERUP`, the game exposes several other functions for you 
 
     {float x, float y, float z}? GET_PLAYER_WORLD_POSITION(byte rank)   : Another car's world position, fetched by rank. May return nil if fetched player does not exist.
 ```
+
