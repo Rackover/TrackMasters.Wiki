@@ -4,7 +4,7 @@ Artificial intelligence in TrackMasters is used for CPU opponents (bots). These 
 This section covers the way CPU works by default and how you can modify it to add new behaviours.
 
 # The way it works
-TrackMasters bots' behaviour is defined in `Lua`, a simple and accessible programming language. You can learn more about Lua [here.](https://www.lua.org/pil/1.html)
+TrackMasters bots' behaviour is written in **Lua**, a simple and accessible programming language. You can learn more about Lua [here.](https://www.lua.org/pil/1.html)
 All bots exactly in the same way, by following the instructions taken from the **first .LUA file found** in the `AI` folder.
 
 By default, that AI folder is the one from the soft data path, and that file is `AI/DEFAULT.LUA`.
