@@ -89,3 +89,9 @@ In addition to  `HAS_POWERUP`, the game exposes several other functions for you 
     {float x, float y, float z}? GET_PLAYER_WORLD_POSITION(byte rank)   : Another car's world position, fetched by rank. May return nil if fetched player does not exist.
 ```
 
+# Notes
+* Due to the way Unity works, the axis (x y z) are as follows:
+* - `X` represents left/right axis
+* - `Y` represents up/down axis
+* - `Z` represents forward/backward axis
+* The AI script is actually loaded each time an AI is spawned (so when you start testing the track, or when the AI gets added to a lobby). If you put `LOG` statements in the script, out of the functions, they will be read when the AI is added to a lobby.
