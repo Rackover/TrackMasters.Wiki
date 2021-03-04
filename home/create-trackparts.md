@@ -43,5 +43,5 @@ It is impossible to override/replace base game track elements with custom track 
 | WidthOnGrid  |  positive integer  |  `1`    |  The size of the track element on the grid, on the Y axis |
 | RequiresGroundRemoval  |  boolean  | `false`   |  Should the top of the block below this track element be removed when this track element is laid?  |
 | AmbientSound  |  text  | None | A looping sound that will be played constantly around this track element, and spatialized.  |
-| Model  |  List of [Models]()  |  Empty  |   |
-| Lights  |   List of [Lights]() |  Empty  |   |
+| Model  |  List of [Models]()  |  Empty  | The models that make this track element, with their collisions |
+| Lights  |   List of [Lights]() |  Empty  | The lights that compose this track element, and what they shed light on |
