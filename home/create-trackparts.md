@@ -50,6 +50,8 @@ It is impossible to override/replace base game track elements with custom track 
 
 ### Lights
 
+## Aliases
+
 ## Example
 ```yaml
 Id: 1x1_SmallStatue
@@ -93,6 +95,4 @@ Lights:
 	AffectsCars: No
 	BiomeSpecific: 
   - CITY
-		
-
 ```
