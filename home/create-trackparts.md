@@ -32,4 +32,9 @@ When saving or loading a track, that ID will be used to store the trackpart in t
 It is impossible to override/replace base game track elements with custom track elements. The IDs of base track elements are a number, while the IDs of custom track elements can only be strings. They are also stored in a different fashion inside the trackfile.
 :::
 
+## Properties
+| Property | Default value | Description |
+| -------- | -------- | -------- |
+| Id     | N/A     | **MUST be filled with the ID of your track element, or it will not be loaded**. Can be any string.  |
+
 
