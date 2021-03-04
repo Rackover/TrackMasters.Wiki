@@ -11,7 +11,7 @@ In the future, this limitation may be removed and a tool may be introduced to ma
 :::
 
 This document will rely heavily on the **example modpack** (LOUVESYSTEMS' STATUE.PAK) to provide examples with each explanation. 
-You can find it in in the `SAMPLESP` folder, in the game's root directory. If you do not find it, you can also download it [here](/_contents/modpacks/LOUVESYSTEMS'%20STATUE.PAK).
+You can find it in in the `SAMPLESP` folder, in the game's root directory. If you do not find it, you can also download it [here](/_contents/modpacks/LOUVESYSTEMS'%20STATUE.PAK) and unzip it by yourself.
 
 # What trackparts are made of
 A trackpart can be made of many things, but needs at least the following to work in a satisfying manner:
@@ -21,5 +21,15 @@ A trackpart can be made of many things, but needs at least the following to work
 
 ## The definition file
 The definition file for any trackpart **must be put** at the virtual path `/TRACKPCS/<My File>.YML`. The name of the file is of no importance, but you should probably give the file the same name you intend to give to your trackpart.
+
+Similarly to the meta file of your modpack, it is a `YAML` text file. 
+Most properties of the definition file are facultative and may or may not be left to their default value, but at least one information **must** be explicitely given for any custom track element: **the ID**.
+The ID of your track part is a **string**, it can be of any length and contain any valid UTF8 character. It should be unique enough so that no other track element ever created in a mod can hold the same name.
+
+When saving or loading a track, that ID will be used to store the trackpart in the track file - if it gets loaded later and the trackpart with that ID cannot be found, it will simply be skipped. However if another trackpart is currently loaded with the same ID, it will be replaced on the track with whatever track element is currently loaded with that ID.
+
+:::info
+It is impossible to override/replace base game track elements with custom track elements. The IDs of base track elements are a number, while the IDs of custom track elements can only be strings. They are also stored in a different fashion inside the trackfile.
+:::
 
 
