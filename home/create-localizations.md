@@ -28,22 +28,22 @@ The whole document is enclosed in a `<language>` tag that takes a single falcuta
 Best practice is to include it in your localization file, unless you're creating a file for a language that doesn't have any ISO6392 code.
 ## Example
 Here is a short example of structure for a localization file that would only contain three lines:
-```
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;language ISO6392Name=&quot;fra&quot;&gt;
-    &lt;v1&gt;
-        &lt;FRONTEND&gt;
-            &lt;CUSTOMIZE_CAR&gt;Garage&lt;/CUSTOMIZE_CAR&gt;
-            &lt;PLAYER_NAME_PLACEHOLDER&gt;Pseudo&lt;/PLAYER_NAME_PLACEHOLDER&gt;
-        &lt;/FRONTEND&gt;
-    &lt;/v1&gt;
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<language ISO6392Name="fra">
+    <v1>
+        <FRONTEND>
+            <CUSTOMIZE_CAR>Garage</CUSTOMIZE_CAR>
+            <PLAYER_NAME_PLACEHOLDER>Pseudo</PLAYER_NAME_PLACEHOLDER>
+        </FRONTEND>
+    </v1>
 
-    &lt;v2&gt;
-        &lt;GENERIC&gt;
-            &lt;COMPUTER_PLAYER_PREFIX&gt;ORDI&lt;/COMPUTER_PLAYER_PREFIX&gt;
-        &lt;/GENERIC&gt;
-    &lt;v2&gt;
-&lt;/language&gt;
+    <v2>
+        <GENERIC>
+            <COMPUTER_PLAYER_PREFIX>ORDI</COMPUTER_PLAYER_PREFIX>
+        </GENERIC>
+    <v2>
+</language>
 ```
 ## Missing lines
 To know which lines you should add to your localization file for it to cover the entirety of the game, please take a look at the english `LANGUAGE.XML` file from TrackMasters' soft data path. 
