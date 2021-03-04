@@ -14,4 +14,10 @@ This document will rely heavily on the **example modpack** (LOUVESYSTEMS' STATUE
 You can find it in in the `SAMPLESP` folder, in the game's root directory. If you do not find it, you can also download it [here](/_contents/modpacks/LOUVESYSTEMS'%20STATUE.PAK).
 
 # What trackparts are made of
+A trackpart can be made of many things, but needs at least the following to work in a satisfying manner:
+* **A track definition**, which is a text file declaring what this trackpart is made of, how is it named, how will it work, etc.
+* Usually **1 model** 
+* and **1 material, aswell as 1 texture** to go with it.
+
+## The definition
 
