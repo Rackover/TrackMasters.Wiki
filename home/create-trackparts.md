@@ -19,7 +19,7 @@ A trackpart can be made of many things, but needs at least the following to work
 * Usually **1 model** 
 * and **1 material, aswell as 1 texture** to go with it.
 
-## The definition file
+# The definition file
 The definition file for any trackpart **must be put** at the virtual path `/TRACKPCS/<My File>.YML`. The name of the file is of no importance, but you should probably give the file the same name you intend to give to your trackpart.
 
 Similarly to the meta file of your modpack, it is a `YAML` text file. 
@@ -45,3 +45,54 @@ It is impossible to override/replace base game track elements with custom track 
 | AmbientSound  |  text  | None | A looping sound that will be played constantly around this track element, and spatialized.  |
 | Model  |  List of [Models]()  |  Empty  | The models that make this track element, with their collisions |
 | Lights  |   List of [Lights]() |  Empty  | The lights that compose this track element, and what they shed light on |
+
+### Models
+
+### Lights
+
+## Example
+```yaml
+Id: 1x1_SmallStatue
+CanBePlacedRepeatedly: Yes
+CanBeBuiltUpon: No
+IsVeryTall: No
+RequiresGroundRemoval: No
+LengthOnGrid: 1
+WidthOnGrid: 1
+AmbientSound: ~
+
+Models:
+- Path: EXAMPLE_FILES/1x1_Statue.OBJ
+  MaterialPath: EXAMPLE_FILES/1x1_Statue.MTL
+  Position:
+    X: 0
+    Y: 0
+    Z: 0
+  Rotation:
+    X: 0
+    Y: 0
+    Z: 0
+  Collision: Simple
+  TexturePath: EXAMPLE_FILES/1x1_Statue.PNG
+  
+Lights:
+- Color: 
+	 r: 255
+ 	 g: 120
+	 b: 255
+	Intensity: 1
+	Size: 5
+  Position:
+    X: 0
+    Y: 6
+    Z: 0
+  Rotation:
+    X: 0
+    Y: 0
+    Z: 0
+	AffectsCars: No
+	BiomeSpecific: 
+  - CITY
+		
+
+```
