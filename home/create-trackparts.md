@@ -33,8 +33,17 @@ It is impossible to override/replace base game track elements with custom track 
 :::
 
 ## Properties
-| Property | Default value | Description |
-| -------- | -------- | -------- |
-| Id     | N/A     | **MUST be filled with the ID of your track element, or it will not be loaded**. Can be any string.  |
-
-
+| Property | Type |  Default value | Description |
+| -------- | -------- | -------- | -------- |
+| Id   | text  | N/A     | **MUST be filled with the ID of your track element, or it will not be loaded**. Can be any string.  |
+|   |    |    |   |
+|   |    |    |   |
+|   |    |    |   |
+|   |    |    |   |
+|   |    |    |   |
+|   |    |    |   |
+|   |    |    |   |
+|   |    |    |   |
+|   |    |    |   |
+|   |    |    |   |
+|   |    |    |   |
