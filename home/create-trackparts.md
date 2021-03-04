@@ -36,12 +36,12 @@ It is impossible to override/replace base game track elements with custom track 
 | Property | Type |  Default value | Description |
 | -------- | -------- | -------- | -------- |
 | Id   | text  | N/A     | **MUST be filled with the ID of your track element, or it will not be loaded**. Can be any string.  |
-| CanBePlacedRepeatedly |  boolean | `false` |   |
-| CanBeBuiltUpon  |   boolean |`false`  |   |
-| IsVeryTall  |  boolean  |  `false`   |   |
-| LengthOnGrid  | positive number | `1`   |   |
-| WidthOnGrid  |  positive number  |  `1`    |   |
-| RequiresGroundRemoval  |  boolean  | `false`   |   |
-| AmbientSound  |  text  | None |   |
+| CanBePlacedRepeatedly |  boolean | `false` | Should a repeated click in the track editor allow the player to lay this track as many times ?|
+| CanBeBuiltUpon  |   boolean |`false`  | Can another track element be placed ontop of this one ? |
+| IsVeryTall  |  boolean  |  `false`   | Should all navigation above this track element be blocked ? |
+| LengthOnGrid  | positive integer | `1`   | The size of the track element on the grid, on the X axis |
+| WidthOnGrid  |  positive integer  |  `1`    |  The size of the track element on the grid, on the Y axis |
+| RequiresGroundRemoval  |  boolean  | `false`   |  Should the top of the block below this track element be removed when this track element is laid?  |
+| AmbientSound  |  text  | None | A looping sound that will be played constantly around this track element, and spatialized.  |
 | Model  |  List of [Models]()  |  Empty  |   |
 | Lights  |   List of [Lights]() |  Empty  |   |
