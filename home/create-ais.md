@@ -64,7 +64,7 @@ The default AI code triggers a honk each time their car collisions with another 
 In addition to  `HAS_POWERUP`, the game exposes several other functions for you to get information about the game state. 
 **Here is a list of all available functions as of now** (TrackMasters 1.38) :
 
-```	lua
+```cs
 nil LOG(string text)		: Logs to logs/AI_LUA.LOG					
 nil HORN()                  : Horns
 nil TRIGGER_POWERUP()       : Triggers the held power up, if any  
