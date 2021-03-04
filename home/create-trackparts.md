@@ -10,4 +10,8 @@ This limitation is due to the complexity of making track elements navigatable by
 In the future, this limitation may be removed and a tool may be introduced to make including navigatable track elements in a modpack possible.
 :::
 
+This document will rely heavily on the **example modpack** (LOUVESYSTEMS' STATUE.PAK) to provide examples with each explanation. 
+You can find it in in the `SAMPLESP` folder, in the game's root directory. If you do not find it, you can also download it [here](/_contents/modpacks/LOUVESYSTEMS'%20STATUE.PAK).
+
+# What trackparts are made of
 
