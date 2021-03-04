@@ -79,11 +79,11 @@ Models:
   
 Lights:
 - Color: 
-	 r: 255
- 	 g: 120
-	 b: 255
-	Intensity: 1
-	Size: 5
+   r: 255
+   g: 120
+   b: 255
+  Intensity: 1
+  Size: 5
   Position:
     X: 0
     Y: 6
@@ -92,7 +92,7 @@ Lights:
     X: 0
     Y: 0
     Z: 0
-	AffectsCars: No
-	BiomeSpecific: 
+  AffectsCars: No
+  BiomeSpecific: 
   - CITY
 ```
