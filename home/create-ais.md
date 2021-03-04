@@ -34,7 +34,7 @@ Each vehicle is controlled by a "joystick input", which represents:
 The vehicle that runs your script has a "virtual" joystick, of which you can set the values yourself by calling the `SET_AI_INPUTS` function.
 For example, if you `SET_AI_INPUTS` with a `x` of zero and a `y` of one, the bot's car will continually go forward and never turn, never stop. Try it out!
 
-```
+```lua
 function COMPUTE_AI()
   local ai_inputs = { 
     x = 0,
