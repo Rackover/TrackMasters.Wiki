@@ -1,3 +1,10 @@
 <!-- TITLE:Create track elements -->
 
-Welcome to my new page!
+First of all, track elements in TrackMasters are internally referred to as **TrackParts**. The word TrackPart may appear here and there on this page and means rigorously the same thing as "track element".
+TrackMasters comes with a certain number of track elements built-in, and these elements all have an ID ranging from 1 to 255. However, it is possible to add an unlimited amount of new track elements to the game via modding, as long as the name of each new element is unique.
+
+:::warning
+As of now (TrackMasters 1.38), custom track elements can **only be cosmetic**. 
+That means that despite being placeable on a track, they cannot be made part of the actual path the player has to follow from start to finish to make a full lap. The navigation system will ignore them entirely.
+This limitation is due to the complexity of making track elements 
+:::
