@@ -6,5 +6,8 @@ TrackMasters comes with a certain number of track elements built-in, and these e
 :::warning
 As of now (TrackMasters 1.38), custom track elements can **only be cosmetic**. 
 That means that despite being placeable on a track, they cannot be made part of the actual path the player has to follow from start to finish to make a full lap. The navigation system will ignore them entirely.
-This limitation is due to the complexity of making track elements 
+This limitation is due to the complexity of making track elements navigatable by the game, that makes it hard or impossible to predict how a track is going to behave without the in-engine developing tools.
+In the future, this limitation may be removed and a tool may be introduced to make including navigatable track elements in a modpack possible.
 :::
+
+
