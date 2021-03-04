@@ -19,5 +19,7 @@ A trackpart can be made of many things, but needs at least the following to work
 * Usually **1 model** 
 * and **1 material, aswell as 1 texture** to go with it.
 
-## The definition
+## The definition file
+The definition file for any trackpart **must be put** at the virtual path `/TRACKPCS/<My File>.YML`. The name of the file is of no importance, but you should probably give the file the same name you intend to give to your trackpart.
+
 
