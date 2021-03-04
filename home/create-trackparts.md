@@ -36,14 +36,12 @@ It is impossible to override/replace base game track elements with custom track 
 | Property | Type |  Default value | Description |
 | -------- | -------- | -------- | -------- |
 | Id   | text  | N/A     | **MUST be filled with the ID of your track element, or it will not be loaded**. Can be any string.  |
-|   |    |    |   |
-|   |    |    |   |
-|   |    |    |   |
-|   |    |    |   |
-|   |    |    |   |
-|   |    |    |   |
-|   |    |    |   |
-|   |    |    |   |
-|   |    |    |   |
-|   |    |    |   |
-|   |    |    |   |
+| CanBePlacedRepeatedly |  boolean | `false` |   |
+| CanBeBuiltUpon  |   boolean |`false`  |   |
+| IsVeryTall  |  boolean  |  `false`   |   |
+| LengthOnGrid  | positive number | `1`   |   |
+| WidthOnGrid  |  positive number  |  `1`    |   |
+| RequiresGroundRemoval  |  boolean  | `false`   |   |
+| AmbientSound  |  text  | None |   |
+| Model  |  List of [Models]()  |  Empty  |   |
+| Lights  |   List of [Lights]() |  Empty  |   |
