@@ -155,3 +155,9 @@ Lights:
 ```
 
 # Model and material files
+## Supported model formats
+The only supported model format is Wavefront **.OBJ**. All the models you provide must be in that format.
+Accordingly, the only supported material format is Wavefront **.MTL**. If you use Blender, exporting a model to OBJ automatically export its model with it in the MTL format.
+Textures can be in any format, but are preferred to be in the **.PNG** format. 
+
+::
