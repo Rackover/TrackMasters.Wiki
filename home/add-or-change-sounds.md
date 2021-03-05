@@ -36,6 +36,12 @@ Each channel then contains a list of sounds to load, with diverse informations g
 | id | The actual name your sound will be referred to internally by the game. For example, if you want to use your sound in a [Custom track element](/home/create-trackparts.md), this is name you will add to your track element |
 | max_instances | If your sound is going to loop (for example, if it's attached to a track element), it will only be playable on loop **once at a time**. That's because the default value for `max_instances` is 1. This works for most looping sounds (background music, ambiant editor sound, etc...) but if you need more instances of your sound to be able to loop at a time, you can increase this number. *This will increase the initial loading time significantly*. |
 
+### Example
+```xml
+        <sound format="OGGVORBIS" id="sfx_powerup_oilsplat">sfx_powerup_oil_drop.ogg</sound>
+        <sound format="OGGVORBIS" id="bgs_tire_squeal" max_instances="8">bgs_tire_squeal.ogg</sound>
+			  <sound format="MPEG" id="bgm_desert_race_day">FourWheeledBullets_C.mp3</sound>
+```
 
 
 # Sound file
