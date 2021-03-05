@@ -50,12 +50,12 @@ It is impossible to override/replace base game track elements with custom track 
 A track element can be made of any number of models. However, collision for this element will be handled per-model, so make sure to only enable collisions on the most important models of your trackpart if you have several!
 | Property | Type |  Default value | Description |
 | -------- | -------- | -------- | -------- |
-| Path   | text  | N/A     | **MUST be filled with the ID of your track element, or it will not be loaded**. Can be any string.  |
-| MaterialPath |  text |  | Should a repeated click in the track editor allow the player to lay this track as many times ?|
-| TexturePath |  text | `false` | Should a repeated click in the track editor allow the player to lay this track as many times ?|
-| Position  |   boolean |`false`  | Can another track element be placed ontop of this one ? |
-| Rotation  |  boolean  |  `false`   | Should all navigation above this track element be blocked ? |
-| Collision  |  boolean  |  `false`   | Should all navigation above this track element be blocked ? |
+| Path   | text  | N/A     | The virtual path (relative or absolute) to the [model file](). |
+| MaterialPath |  text | `Path` with an .MTL extension instead of .OBJ  |  The virtual path (relative or absolute) to the [material file]().  |
+| TexturePath |  text | None  | The virtual path (relative or absolute) to the [texture file](). If you've exported your model and material with blender, you will need to specify this.  |
+| Position  |   [Vector]() |`false`  | Can another track element be placed ontop of this one ? |
+| Rotation  |  [Vector]()  |  `false`   | Should all navigation above this track element be blocked ? |
+| Collision  |  text  |  None   | Can be either of the following: |
 
 ### Lights
 
