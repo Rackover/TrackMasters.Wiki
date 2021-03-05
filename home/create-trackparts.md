@@ -101,7 +101,13 @@ Multiple words can be used to signify `true`, `false`, and `null`/`empty` in a t
 | true | `true` |
 | enabled | `true` |
 | 1 | `true` |
-|  | `null` |
+| null | `null` |
+| none | `null` |
+| nil | `null` |
+| undefined | `null` |
+| noone | `null` |
+| nada | `null` |
+| ~ | `null` |
 
 ## Example
 ```yaml
