@@ -47,9 +47,24 @@ It is impossible to override/replace base game track elements with custom track 
 | Lights  |   List of [Lights]() |  Empty  | The lights that compose this track element, and what they shed light on |
 
 ### Models
+A track element can be made of any number of models. However, collision for this element will be handled per-model, so make sure to only enable collisions on the most important models of your trackpart if you have several!
+| Property | Type |  Default value | Description |
+| -------- | -------- | -------- | -------- |
+| Path   | text  | N/A     | **MUST be filled with the ID of your track element, or it will not be loaded**. Can be any string.  |
+| MaterialPath |  text |  | Should a repeated click in the track editor allow the player to lay this track as many times ?|
+| TexturePath |  text | `false` | Should a repeated click in the track editor allow the player to lay this track as many times ?|
+| Position  |   boolean |`false`  | Can another track element be placed ontop of this one ? |
+| Rotation  |  boolean  |  `false`   | Should all navigation above this track element be blocked ? |
+| Collision  |  boolean  |  `false`   | Should all navigation above this track element be blocked ? |
 
 ### Lights
 
+### Vectors
+| Property | Type |  Default value | Description |
+| -------- | -------- | -------- | -------- |
+| X   | number  | 0    | X is the left-right axis.  |
+| Y   | number  | 0    | Y is the up-down axis.  |
+| Z   | number  | 0    | Z is the forward-backward axis.  |
 ## Aliases
 
 ## Example
