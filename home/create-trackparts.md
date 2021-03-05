@@ -55,9 +55,7 @@ A track element can be made of any number of models. However, collision for this
 | TexturePath |  text | None  | The virtual path (relative or absolute) to the [texture file](). If you've exported your model and material with blender, you will need to specify this.  |
 | Position  |   [Vector]() |`false`  | Can another track element be placed ontop of this one ? |
 | Rotation  |  [Vector]()  |  `false`   | Should all navigation above this track element be blocked ? |
-| Collision  |  text  |  None   | Can be either of the following: 
-* abc
-* def |
+| Collision  |  text  |  None   | Can be either of the following: |
 
 ### Lights
 
