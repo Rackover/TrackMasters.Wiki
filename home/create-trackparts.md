@@ -57,6 +57,7 @@ A track element can be made of any number of models. However, collision for this
 | Position  |   [Vector](#Vectors) |`false`  | Can another track element be placed ontop of this one ? |
 | Rotation  |  [Vector](#Vectors)  |  `false`   | Should all navigation above this track element be blocked ? |
 | Collision  |  text  |  None   | Can be either of the following: **Box** (collision is a block around the trackpart that takes all the space available), **Simple** (collision is a block as small as possible to wrap the model), **Complex** (collision follows the edges of the mesh precisely) or **None** (no collision at all). 
+| BiomeSpecific | List of texts | Empty | If this is empty, the model and its collision will be present on all biomes. If this list contains one of more biome names (`CITY`, `DESERT`, `ICE`) they will only appear on these biomes. | 
 
 ### Lights
 A track element can be made of any number of lights - but too many lights might be grouped together for performance reasons, which may alter the way the model is shaded.
@@ -70,7 +71,7 @@ Lights are spheres and not projectors, so they will light up every surface place
 | Position  |   [Vector](#Vectors) |`false`  | Can another track element be placed ontop of this one ? |
 | Rotation  |  [Vector](#Vectors)  |  `false`   | Should all navigation above this track element be blocked ? |
 | AffectsCars  |  bool  |  false   | Will the light also affect vehicles surfaces? | 
-| BiomeSpecific | List of texts | Empty | If this is empty, the light will be present on all biomes. If this contains one of more biome names (`CITY`, `DESERT`, `ICE`) the light will only appear on these biomes. | 
+| BiomeSpecific | List of texts | Empty | If this is empty, the light will be present on all biomes. If this list contains one of more biome names (`CITY`, `DESERT`, `ICE`) the light will only appear on these biomes. | 
 
 ### Vectors
 | Property | Type |  Default value | Description |
