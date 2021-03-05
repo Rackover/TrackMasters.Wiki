@@ -163,5 +163,5 @@ Textures can be in any format, but are preferred to be in the **.PNG** format.
 :::warning
 Normally, specifying the texture of the model via the `TexturePath` property should not be necessary, as the material already contains a link to the texture file via the MTL property `map_Kd`.
 However, it appears that to this day (January 2021) blender-born MTL files are missing that property and there is no way to include it automatically.
-TrackMasters fixes this automatically by adding a `map_Kd` property to the MTL file on loading, given that `TexturePath` is provided in the model definition. 
+TrackMasters fixes this automatically by adding a `map_Kd` property to the MTL file on loading, given that `TexturePath` is provided in the model definition. If you MTL is malformed, and it is likely to be if you export it with blender, please make sure to always indicate `TexturePath`.
 :::
