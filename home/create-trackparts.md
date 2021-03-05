@@ -43,8 +43,8 @@ It is impossible to override/replace base game track elements with custom track 
 | WidthOnGrid  |  positive integer  |  `1`    |  The size of the track element on the grid, on the Y axis |
 | RequiresGroundRemoval  |  boolean  | `false`   |  Should the top of the block below this track element be removed when this track element is laid?  |
 | AmbientSound  |  text  | None | A looping sound that will be played constantly around this track element, and spatialized.  |
-| Model  |  List of [Models]()  |  Empty  | The models that make this track element, with their collisions |
-| Lights  |   List of [Lights]() |  Empty  | The lights that compose this track element, and what they shed light on |
+| Model  |  List of [Models](#Models)  |  Empty  | The models that make this track element, with their collisions |
+| Lights  |   List of [Lights](#Lights) |  Empty  | The lights that compose this track element, and what they shed light on |
 
 ### Models
 A track element can be made of any number of models. However, collision for this element will be handled per-model, so make sure to only enable collisions on the most important models of your trackpart if you have several!
@@ -54,8 +54,8 @@ A track element can be made of any number of models. However, collision for this
 | Path   | text  | N/A     | The virtual path (relative or absolute) to the [model file](). |
 | MaterialPath |  text | `Path` with an .MTL extension instead of .OBJ  |  The virtual path (relative or absolute) to the [material file]().  |
 | TexturePath |  text | None  | The virtual path (relative or absolute) to the [texture file](). If you've exported your model and material with blender, you will need to specify this.  |
-| Position  |   [Vector]() |`false`  | Can another track element be placed ontop of this one ? |
-| Rotation  |  [Vector]()  |  `false`   | Should all navigation above this track element be blocked ? |
+| Position  |   [Vector](#Vectors) |`false`  | Can another track element be placed ontop of this one ? |
+| Rotation  |  [Vector](#Vectors)  |  `false`   | Should all navigation above this track element be blocked ? |
 | Collision  |  text  |  None   | Can be either of the following: **Box** (collision is a block around the trackpart that takes all the space available), **Simple** (collision is a block as small as possible to wrap the model), **Complex** (collision follows the edges of the mesh precisely) or **None** (no collision at all). 
 
 ### Lights
