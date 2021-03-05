@@ -25,13 +25,15 @@ For example, if most of your sounds are in the `SOUND/BANK` directory, you might
 </CHANNEL>
 ```
 
-Each channel then contains a list of sounds to load, with diverse informations:
+## Sounds
 
+Each channel then contains a list of sounds to load, with diverse informations given by the `sound` tag.
 
 | Property | Description |
 | -------- | -------- | 
-| &lt;inner space of the `sound` tag&gt;     | Text     |
-
+| &lt;inner space of the `sound` tag&gt;     | Virtual path to the actual sound file to load   |
+| format |  If not specified, it will be autodetected from the file's extension. Supported formats are `MPEG`, `OGGVORBIS`, `WAV`, `AIFF` |
+| id | The actual name your sound will be referred to internally by the game. For example, if you want to use your sound in a [Custom track element](/home/create-trackparts.md), this is name you will add to your track element |
 
 
 
