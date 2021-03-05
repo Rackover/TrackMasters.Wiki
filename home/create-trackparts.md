@@ -48,6 +48,7 @@ It is impossible to override/replace base game track elements with custom track 
 
 ### Models
 A track element can be made of any number of models. However, collision for this element will be handled per-model, so make sure to only enable collisions on the most important models of your trackpart if you have several!
+
 | Property | Type |  Default value | Description |
 | -------- | -------- | -------- | -------- |
 | Path   | text  | N/A     | The virtual path (relative or absolute) to the [model file](). |
@@ -55,7 +56,7 @@ A track element can be made of any number of models. However, collision for this
 | TexturePath |  text | None  | The virtual path (relative or absolute) to the [texture file](). If you've exported your model and material with blender, you will need to specify this.  |
 | Position  |   [Vector]() |`false`  | Can another track element be placed ontop of this one ? |
 | Rotation  |  [Vector]()  |  `false`   | Should all navigation above this track element be blocked ? |
-| Collision  |  text  |  None   | Can be either of the following: |
+| Collision  |  text  |  None   | Can be either of the following: **Box** (collision is a block around the trackpart that takes all the space available), **Simple** (collision is a block as small as possible to wrap the model), **Complex** (collision follows the edges of the mesh precisely) or **None** (no collision at all). 
 
 ### Lights
 
