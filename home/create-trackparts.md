@@ -70,7 +70,7 @@ Lights are spheres and not projectors, so they will light up every surface place
 | Position  |   [Vector](#Vectors) |`false`  | Can another track element be placed ontop of this one ? |
 | Rotation  |  [Vector](#Vectors)  |  `false`   | Should all navigation above this track element be blocked ? |
 | AffectsCars  |  bool  |  false   | Will the light also affect vehicles surfaces? | 
-| BiomeSpecific | List of texts | Empty | | 
+| BiomeSpecific | List of texts | Empty |  | 
 
 ### Vectors
 | Property | Type |  Default value | Description |
