@@ -89,6 +89,7 @@ Lights are spheres and not projectors, so they will light up every surface place
 
 ## Aliases
 
+
 ## Example
 ```yaml
 Id: 1x1_SmallStatue
