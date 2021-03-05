@@ -60,12 +60,13 @@ A track element can be made of any number of models. However, collision for this
 
 ### Lights
 A track element can be made of any number of lights - but too many lights might be grouped together for performance reasons, which may alter the way the model is shaded.
+Lights are spheres and not projectors, so they will light up every surface placed in their radius.
 
 | Property | Type |  Default value | Description |
 | -------- | -------- | -------- | -------- |
-| Color   | [Color](#Colors)  | Black   | The virtual path (relative or absolute) to the [model file](). |
-| MaterialPath |  text | `Path` with an .MTL extension instead of .OBJ  |  The virtual path (relative or absolute) to the [material file]().  |
-| TexturePath |  text | None  | The virtual path (relative or absolute) to the [texture file](). If you've exported your model and material with blender, you will need to specify this.  |
+| Color   | [Color](#Colors)  | Black   | The color of the light. |
+| Intensity | positive number between 0.1 and 20 | 1 | Brightness and power of the light |
+| Size | positive number between 0.1 and 10 | 5 | Radius, in meters, of the light|
 | Position  |   [Vector](#Vectors) |`false`  | Can another track element be placed ontop of this one ? |
 | Rotation  |  [Vector](#Vectors)  |  `false`   | Should all navigation above this track element be blocked ? |
 | Collision  |  text  |  None   | Can be either of the following: **Box** (collision is a block around the trackpart that takes all the space available), **Simple** (collision is a block as small as possible to wrap the model), **Complex** (collision follows the edges of the mesh precisely) or **None** (no collision at all). 
