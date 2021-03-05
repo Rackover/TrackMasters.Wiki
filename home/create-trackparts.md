@@ -88,6 +88,7 @@ Lights are spheres and not projectors, so they will light up every surface place
 | b  | positive number (0-255)   | 0    | {blue}(Blue) |
 
 ## Aliases
+Multiple words can be used to signify `true`, `false`, and `null`/`empty` in a track sheet.
 
 
 ## Example
