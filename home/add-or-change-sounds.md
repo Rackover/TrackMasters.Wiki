@@ -34,7 +34,7 @@ Each channel then contains a list of sounds to load, with diverse informations g
 | &lt;inner space of the `sound` tag&gt;     | Virtual path to the actual sound file to load   |
 | format |  If not specified, it will be autodetected from the file's extension. Supported formats are `MPEG`, `OGGVORBIS`, `WAV`, `AIFF` |
 | id | The actual name your sound will be referred to internally by the game. For example, if you want to use your sound in a [Custom track element](/home/create-trackparts.md), this is name you will add to your track element |
-
+| max_instances | If your sound is going to loop (for example, if it's attached to a track element), it will only be playable on loop **once at a time**. That's because the default value for `max_instances` is 1. This works for most looping sounds (background music, ambiant editor sound, etc...) but if you need more instances of your sound to be able to loop at a time, you can increase this number. *This will increase the initial loading time significantly*. |
 
 
 
