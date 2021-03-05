@@ -1,3 +1,7 @@
 <!-- TITLE:Add or change sounds -->
 
-Welcome to my new page!
+Sounds in TrackMasters are made of two elements: a **register entry**, and a **sound file**.
+# The sound register
+
+
+# Sound file
