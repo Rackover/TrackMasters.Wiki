@@ -80,9 +80,9 @@ A track element can be made of any number of lights - but too many lights might 
 ### Colors
 | Property | Type |  Default value | Description |
 | -------- | -------- | -------- | -------- |
-| r   | positive number (0-255)  | 0    | Red  |
-| g   | positive number (0-255)   | 0    | Green |
-| b  | positive number (0-255)   | 0    | Blue |
+| r   | positive number (0-255)  | 0    | {red}(Red)  |
+| g   | positive number (0-255)   | 0    | {green}(Green) |
+| b  | positive number (0-255)   | 0    | {blue}(Blue) |
 
 ## Aliases
 
