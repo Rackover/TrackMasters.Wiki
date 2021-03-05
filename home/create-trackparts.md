@@ -70,7 +70,7 @@ Lights are spheres and not projectors, so they will light up every surface place
 | Position  |   [Vector](#Vectors) |`false`  | Can another track element be placed ontop of this one ? |
 | Rotation  |  [Vector](#Vectors)  |  `false`   | Should all navigation above this track element be blocked ? |
 | AffectsCars  |  bool  |  false   | Will the light also affect vehicles surfaces? | 
-| BiomeSpecific | List of texts | Empty |  | 
+| BiomeSpecific | List of texts | Empty | If this is empty, the light will be present on all biomes. If this contains one of more biome names (`CITY`, `DESERT`, `ICE`) the light will only appear on these biomes. | 
 
 ### Vectors
 | Property | Type |  Default value | Description |
