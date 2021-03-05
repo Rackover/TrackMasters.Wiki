@@ -88,8 +88,20 @@ Lights are spheres and not projectors, so they will light up every surface place
 | b  | positive number (0-255)   | 0    | {blue}(Blue) |
 
 ## Aliases
-Multiple words can be used to signify `true`, `false`, and `null`/`empty` in a track sheet.
-
+Multiple words can be used to signify `true`, `false`, and `null`/`empty` in a track sheet. These aliases are always case insensitive, so for example `YES` and `Yes` will both be parsed to `true` indistinguishably.
+| Word | Equivalent to | 
+| -------- | -------- | 
+| no | `false` |
+| off | `false` |
+| false | `false` |
+| disabled | `false` |
+| 0 | `false` |
+| yes | `true` |
+| on | `true` |
+| true | `true` |
+| enabled | `true` |
+| 1 | `true` |
+|  | `null` |
 
 ## Example
 ```yaml
