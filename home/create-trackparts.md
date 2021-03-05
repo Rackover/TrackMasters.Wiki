@@ -59,6 +59,16 @@ A track element can be made of any number of models. However, collision for this
 | Collision  |  text  |  None   | Can be either of the following: **Box** (collision is a block around the trackpart that takes all the space available), **Simple** (collision is a block as small as possible to wrap the model), **Complex** (collision follows the edges of the mesh precisely) or **None** (no collision at all). 
 
 ### Lights
+A track element can be made of any number of lights - but too many lights might be grouped together for performance reasons, which may alter the way the model is shaded.
+
+| Property | Type |  Default value | Description |
+| -------- | -------- | -------- | -------- |
+| Path   | text  | N/A     | The virtual path (relative or absolute) to the [model file](). |
+| MaterialPath |  text | `Path` with an .MTL extension instead of .OBJ  |  The virtual path (relative or absolute) to the [material file]().  |
+| TexturePath |  text | None  | The virtual path (relative or absolute) to the [texture file](). If you've exported your model and material with blender, you will need to specify this.  |
+| Position  |   [Vector](#Vectors) |`false`  | Can another track element be placed ontop of this one ? |
+| Rotation  |  [Vector](#Vectors)  |  `false`   | Should all navigation above this track element be blocked ? |
+| Collision  |  text  |  None   | Can be either of the following: **Box** (collision is a block around the trackpart that takes all the space available), **Simple** (collision is a block as small as possible to wrap the model), **Complex** (collision follows the edges of the mesh precisely) or **None** (no collision at all). 
 
 ### Vectors
 | Property | Type |  Default value | Description |
@@ -66,6 +76,14 @@ A track element can be made of any number of models. However, collision for this
 | X   | number  | 0    | X is the left-right axis.  |
 | Y   | number  | 0    | Y is the up-down axis.  |
 | Z   | number  | 0    | Z is the forward-backward axis.  |
+
+### Colors
+| Property | Type |  Default value | Description |
+| -------- | -------- | -------- | -------- |
+| r   | positive number (0-255)  | 0    | Red  |
+| g   | positive number (0-255)   | 0    | Green |
+| b  | positive number (0-255)   | 0    | Blue |
+
 ## Aliases
 
 ## Example
