@@ -73,9 +73,9 @@ A track element can be made of any number of lights - but too many lights might 
 ### Vectors
 | Property | Type |  Default value | Description |
 | -------- | -------- | -------- | -------- |
-| X   | number  | 0    | X is the left-right axis.  |
-| Y   | number  | 0    | Y is the up-down axis.  |
-| Z   | number  | 0    | Z is the forward-backward axis.  |
+| X   | number  | 0    | {red}(X) is the left-right axis.  |
+| Y   | number  | 0    | {green}(Y) is the up-down axis.  |
+| Z   | number  | 0    | {blue}(Z) is the forward-backward axis.  |
 
 ### Colors
 | Property | Type |  Default value | Description |
