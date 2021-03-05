@@ -43,3 +43,7 @@ Each channel then contains a list of sounds to load, with diverse informations g
 			  <sound format="MPEG" id="bgm_desert_race_day">FourWheeledBullets_C.mp3</sound>
 ```
 # Sound file
+The sound file can be put anywhere inside the modpack, as the path to it will have be indicated in the register for this file to be used. It can also have any name.
+The supported formats for the sound files are `MPEG` (mp3), `OGGVORBIS` (ogg), `WAV`, and `AIFF`.
+
+If your sound is not playing properly, be sure to check the **log files** for sound related errors. 
