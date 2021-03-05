@@ -14,7 +14,8 @@ Four channels exist:
 
 Categorizing the sounds by channel allows the player to control the sound of the game more precisely (for example, cut down the music and only leave the sounds, or the opposite).
 
-When specifying a channel in the sound register,
+When specifying a channel in the sound register, you can also specify a `base_path` which is a virtual path that will be prepended to every individual sound path. 
+For example, if most of your sounds are in the `SOUND/BANK` directory, you might want to put that directory in the `base_path` of your channel so that the path of each of your sound can be something like `mysound.ogg` instead of `SOUND/BANK/mysound.ogg` every time.
 
 Each channel then contains a list of sounds to load, with diverse informations:
 
