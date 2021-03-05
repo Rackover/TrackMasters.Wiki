@@ -42,6 +42,4 @@ Each channel then contains a list of sounds to load, with diverse informations g
         <sound format="OGGVORBIS" id="bgs_tire_squeal" max_instances="8">bgs_tire_squeal.ogg</sound>
 			  <sound format="MPEG" id="bgm_desert_race_day">FourWheeledBullets_C.mp3</sound>
 ```
-
-
 # Sound file
