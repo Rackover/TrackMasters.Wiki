@@ -13,7 +13,7 @@ For example: Name the french language "Français" instead of "French", so you ca
 :::
 
 In each language subfolder, **exactly two files** should be present:
-* **LANGUAGE.XML**, which contains all the lines and text for that language.
+* **LANGUAGE.YML**, which contains all the lines and text for that language.
 * **FLAG.PNG**, which will be the icon for that language in the game's options menu.
 
 # XML Structure
