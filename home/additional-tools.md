@@ -25,7 +25,7 @@ The custom elements of a track can be shown by clicking the "View dependencies..
 The latest Track Inspector is normally inluded with the game files, in the root game folder. 
 If you are missing the file for any reason however, you can download it here.
 
-[Download INSPECTR.EXE](/_contents/downloadable/INSPECTR.EXE)
+:::download /_contents/downloadable/INSPECTR.EXE :::
 # Lego Stunt Rally track converter (LSRCONV.EXE)
 This tool converts tracks from Lego Stunt Rally (.trk format) to the TrackMasters format. It produces .PNG files with a sample image.
 
@@ -125,6 +125,6 @@ Here is the Lego Stunt Rally - TrackMasters correspondance sheet used in the **1
 The latest LSR Converter is normally inluded with the game files, in the root game folder. 
 If you are missing the file for any reason however, you can download it here.
 
-[Download LSRCONV.EXE](/_contents/downloadable/LSRCONV.EXE)
+:::download /_contents/downloadable/LSRCONV.EXE :::
 
 
