@@ -35,7 +35,8 @@ For example, a mod that replaces the main menu music with another one and does n
                 bgm_frontend.ogg
 ```
 
-Packing up is accomplished by the **mod packer (PAK.EXE)** that is provided with TrackMasters, and normally always located in your Mods Directory. If for some reason you are missing it, [you can download it by clicking here.](/_contents/downloadable/PAK.EXE) You should place it in your Mods Directory.
+Packing up is accomplished by the **mod packer (PAK.EXE)** that is provided with TrackMasters, and normally always located in your Mods Directory. If for some reason you are missing it, you can download it below. You should place it in your Mods Directory.
+:::download /_contents/downloadable/PAK.EXE :::
 
 ![mod folder screenshot.png](/_contents/tools/mod%20folder%20screenshot.png)
 
@@ -63,6 +64,6 @@ Clicking on it will give you informations about which mod is loaded and what you
 A sample mod is provided with the game to show you how to make a simple mod that adds one track element to the game.
 This modpack is called "LOUVESYSTEMS' STATUE" and adds a wolf statue to the game. You can find it in the **SAMPLEMP** folder, in the game's root directory.
 You can also download it here:
-[LOUVESYSTEMS' STATUE.PAK](/_contents/modpacks/LOUVESYSTEMS'%20STATUE.PAK)
+:::download /_contents/modpacks/LOUVESYSTEMS' STATUE.PAK :::
 
 ![statue.png](/_contents/statue.png)
