@@ -8,7 +8,9 @@ Although normally included with the game and present in the game's root director
 :::download /_contents/downloadable/CAREDITR.EXE :::
 
 # "What vehicles are made of"
-
+Each vehicle is made of at least two files :
+* **A definition file**, which is a YML text file giving all the informations about said vehicle. This is the file that is edited and saved by the vehicle editor and where most of the works happen.
+* **A car model** of the OBJ format that will be used by the game to display the car. No textures are required as all vehicles use the same texture. 
 
 
 # Example
