@@ -7,3 +7,6 @@ In addition to the traditional [packing tool](https://wiki.trackmasters.louve.sy
 Although normally included with the game and present in the game's root directory, you can download it below if for any reason you are missing it.
 :::download /_contents/downloadable/CAREDITR.EXE :::
 
+# Example
+The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
+
