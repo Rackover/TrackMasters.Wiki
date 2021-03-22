@@ -10,7 +10,10 @@ Although normally included with the game and present in the game's root director
 # "What vehicles are made of"
 Each vehicle is made of at least two files :
 * **A definition file**, which is a YML text file giving all the informations about said vehicle. This is the file that is edited and saved by the vehicle editor and where most of the works happen.
-* **A car model** of the OBJ format that will be used by the game to display the car. No textures are required as all vehicles use the same texture. 
+* **A car model** of the OBJ format that will be used by the game to display the car. No textures are required as all vehicles use the same texture. See [Model](#model).
+* Zero, one or two tire models (OBJ format aswell) depending on if you want your vehicle to use the default tires (zero), a custom tire model (one), or a custom tire model for the front tires and another custom model for the rear tires.
+
+
 
 
 # Example
