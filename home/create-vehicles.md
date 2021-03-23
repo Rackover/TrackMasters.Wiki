@@ -26,10 +26,10 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  Weight  |   positive number | The heavier a car is, the more likely it is to push other cars around when bumping in them. |
 |  Acceleration  |  positive number  | At which speed does the vehicle reach its maximum speed. |
 |  MaxSpeed  |   positive number | The maximum speed that this vehicle can reach. _Note: This value uses an arbitrary unit, where each unit is equivalent to 4kph. A max speed of 10 = 40 kph._|
-|  TurnSpeed  |   3  |
-|  MaxTurn  |   5  |
-|  ForwardFriction  |   4  |
-|  TurnFriction  |   10  |
+|  TurnSpeed  |  positive number | How fast does the vehicle reach its maximum turn amplitude when turning.  |
+|  MaxTurn  |   positve number | How tight this vehicle's turns can be. The higher this value is, the tightest the vehicle will turn.  |
+|  ForwardFriction  |  positive number | The higher this value is, the more the vehicle will deccelerate naturally when no inputs are given. |
+|  TurnFriction  |  positive number |  In absence of steering input, the higher this value is the quicker the vehicle's wheel will reset. If this value is too low, a single short steering input will leave the car turning for a little while.  |
 |  TurnSpeedReduction  |   0.300000012  |
 |  Inertia  |   0.300000012  |
 |  SpinForceWhenTurning  |   0  |
