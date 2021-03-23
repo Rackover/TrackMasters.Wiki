@@ -132,15 +132,15 @@ You can use either the primary and secondary color, just the primary, or none of
 
 ### Tires pivot
 The pivot for custom tire models should be at the exact center of the tire, on all three axis.
-![tire pivot.png](/_contents/blender/tire pivot.png)
+![tire pivot.png](/_contents/blender/tire%20pivot.png)
 
 ### Tires UV
 Primary and secondary colors, aswell as headlight colors, will not work on tires. So far, only the shades of grey can be used. 
-![tire UV.png](/_contents/blender/tire UV.png)
+![tire UV.png](/_contents/blender/tire%20UV.png)
 
 # Using the vehicle editor
 The vehicle editor is mainly intended as a way to place the tires on your car easily, aswell as to edit the handling and behaviour of your car with simplicity.
-![vehicle editor.png](/_contents/tools/vehicle editor.png)
+![vehicle editor.png](/_contents/tools/vehicle%20editor.png)
 
 You can open existing car definitions, as long as all the paths they reference (model path, tires model path, etc) are reachable from the opened car definition's path. If the definition was moved without the models, opening the definition might trigger warnings that the models are missing.
 
@@ -148,7 +148,7 @@ By default if you create a new vehicle, the vehicle editor does not know in whic
 
 ## Example with a loaded car
 Notice the window title - if the tool is aware of the working directory (if you have opened an existing definition file or saved the file you were working on), the title will go from "NO WORKING DIRECTORY" to display your actual current working directory.
-![vehicleeditor 2.png](/_contents/tools/vehicleeditor 2.png)
+![vehicleeditor 2.png](/_contents/tools/vehicleeditor%202.png)
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
 :::download /_contents/modpacks/ADDITIONALCARS.PAK :::
