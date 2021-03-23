@@ -113,6 +113,15 @@ The pivot should be, on the vertical axis, right under your vehicle. This is bes
 ### UV and texturing
 Although you cannot indicate a texture for your car, the game will apply a texture on it, the colors of which will be decided by the player.
 For your car to work correctly with these colors, you need to map your UVs to the game's vehicle texture. This texture is provided below:
+:::download /_contents/downloadable/T_car_composite.png :::
+
+Take a good look at the top left corner of the texture. This area is the **palette** of the texture, and this is where your UVs should be placed. Cars can only have solid colors, and the palette provides a total of 7 colors:
+1. The primary color of the car (represented green, chosen)
+2. The secondary color of the car (represented red, chosen by the player)
+3. A front headlights color
+4. A rear headlights color
+5. 6. 7. Three shades of grey
+
 
 
 # Full example
