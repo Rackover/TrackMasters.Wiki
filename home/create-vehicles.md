@@ -34,7 +34,7 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  Inertia  |   positive number (0-1)  | 0.7 | Increasing this value will make the throttle input more "mellow". With a high "inertia" value, a forward input will linger for a little while after the forward key is released. |
 |  SpinForceWhenTurning  |  positive number  | 0.4 | By how much does steering also makes the vehicle spin on the vertical axis |
 |  BackpedalSpeedAmount  | positive number (0-1) | 0.6 | How much of the max speed is available when backpedaling |
-|  GroundRepulsion  | positive number |  6  |
+|  GroundRepulsion  | positive number |  6  | 
 |  GroundCheckLength  |   0.600000024  |
 |  AirControlAmount  |   0.1150000006  |
 |  FrontTiresPosition  |   1.25  |
