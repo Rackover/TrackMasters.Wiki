@@ -146,7 +146,9 @@ You can open existing car definitions, as long as all the paths they reference (
 
 By default if you create a new vehicle, the vehicle editor does not know in which folder to find the models for your car, and will not load any. To be able to visualize models for your vehicle sheet, you need to save it at least once, in the desired location (usually in your work directory, in the subfolder `VEHICLES`). Once this is done, relative paths that you'll write in Model path and Tires model path will be valid and the models they point to will be loaded automatically.
 
-
+## Example with a loaded car
+Notice the window title - if the tool is aware of the working directory (if you have opened an existing definition file or saved the file you were working on), the title will go from "NO WORKING DIRECTORY" to display your actual current working directory.
+![vehicleeditor 2.png](/_contents/tools/vehicleeditor 2.png)
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
 :::download /_contents/modpacks/ADDITIONALCARS.PAK :::
