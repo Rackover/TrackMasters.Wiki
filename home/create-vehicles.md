@@ -16,7 +16,7 @@ Each vehicle is made of at least two files :
 ## The definition file
 The vehicle definition (internally called `vehicle sheet`) contains a lot of information, ranging from visuals (tires position, headlights position and color, ...) to handling (max speed, acceleration). This file is a YML text file, and is expected to contain the following informations:
 
-| Column 1 | Column 2 | Column 3 |
+| Property | Column 2 | Column 3 |
 | -------- | -------- | -------- |
 |  Id  |   SuperCooper  |
 |  ModelPath  |   MODELS/SUPERC.OBJ  |
