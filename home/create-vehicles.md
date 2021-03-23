@@ -16,16 +16,16 @@ Each vehicle is made of at least two files :
 ## The definition file
 The vehicle definition (internally called `vehicle sheet`) contains a lot of information, ranging from visuals (tires position, headlights position and color, ...) to handling (max speed, acceleration). This file is a YML text file, and is expected to contain the following informations:
 
-| Property | Column 2 | Column 3 |
+| Property | Type | Description |
 | -------- | -------- | -------- |
-|  Id  |   SuperCooper  |
-|  ModelPath  |   MODELS/SUPERC.OBJ  |
-|  ColorCount  |   2  |
-|  PitchMultiplier  |   0.800000012  |
-|  EngineType  |   HEAVY  |
-|  Weight  |   7  |
-|  Acceleration  |   0.200000003  |
-|  MaxSpeed  |   100  |
+|  Id  |   text  | **MUST be filled with the ID of your vehicle**, or it will not be loaded. Can be any string. |
+|  ModelPath  |   text  | The relative virtual path to the OBJ model used for this vehicle. |
+|  ColorCount  |   number (0-2)  | How many colors can be picked for this vehicle (zero, one or two) |
+|  PitchMultiplier  | number | By how much will the engine sound of the car be increased or lowered when accelerating or deccelerating |
+|  EngineType  |  text | Can be either HEAVY, LIGHT or MEDIUM. Affects the engine sound and the behaviour of its pitch.
+|  Weight  |   positive number | The heavier a car is, the more likely it is to push other cars around when bumping in them. |
+|  Acceleration  |  positive number  | At which speed does the vehicle reach its maximum speed. |
+|  MaxSpeed  |   positive number | The maximum speed that this vehicle can reach. _Note: This value uses an arbitrary unit, where each unit is equivalent to 4kph. A max speed of 10 = 40 kph._|
 |  TurnSpeed  |   3  |
 |  MaxTurn  |   5  |
 |  ForwardFriction  |   4  |
