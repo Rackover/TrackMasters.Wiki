@@ -55,7 +55,42 @@ If you're unsure about what values should some of these properties have, do not 
 :::
 
 ### Example
-
+```yaml
+Id: ToyCar
+ModelPath: MODELS/TOYCAR.OBJ
+ColorCount: 2
+PitchMultiplier: 1.3
+EngineType: MEDIUM
+Weight: 2
+Acceleration: 1.75
+MaxSpeed: 16
+TurnSpeed: 3
+MaxTurn: 4
+ForwardFriction: 4
+TurnFriction: 5
+TurnSpeedReduction: 0.1
+Inertia: 0.2
+SpinForceWhenTurning: 0.4
+BackpedalSpeedAmount: 0.6
+GroundRepulsion: 6
+GroundCheckLength: 0.6
+AirControlAmount: 0.15
+FrontTiresPosition: 1.25
+RearTiresPosition: -1.1
+TiresHeight: 0.068
+TiresSpacing: 1.5
+FrontTiresModelPath: ''
+BackTiresModelPath: ''
+HeadlightsColor:
+  r: 1
+  g: 1
+  b: 1
+HeadlightsHeight: 0.33
+FrontHoverPointsPosition: 1.25
+RearHoverPointsPosition: -1.25
+HoverPointsHeight: 0.17
+HoverPointsSpacing: 1.5
+```
 
 ## Vehicle model
 
