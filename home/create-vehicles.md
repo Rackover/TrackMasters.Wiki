@@ -10,7 +10,7 @@ Although normally included with the game and present in the game's root director
 # "What vehicles are made of"
 Each vehicle is made of at least two files :
 * **A definition file**, which is a YML text file giving all the informations about said vehicle. This is the file that is edited and saved by the vehicle editor and where most of the works happen.
-* **A car model** of the OBJ format that will be used by the game to display the car. No textures are required as all vehicles use the same texture. See [Model](#model).
+* **A vehicle model** of the OBJ format that will be used by the game to display the car. Neither textures or materials are required as all vehicles use the same texture. See [the model](#the-model).
 * Zero, one or two tire models (OBJ format aswell) depending on if you want your vehicle to use the default tires (zero), a custom tire model (one), or a custom tire model for the front tires and another custom model for the rear tires.
 
 ## The definition file
@@ -54,8 +54,13 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 If you're unsure about what values should some of these properties have, do not worry: you can leave them to their default value for now
 :::
 
+### Example
 
 
-# Example
-The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
+## Vehicle model
+
+
+
+# Full example
+The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
 :::download /_contents/modpacks/ADDITIONALCARS.PAK :::
