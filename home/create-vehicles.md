@@ -43,7 +43,7 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  TiresSpacing  |  number | 1.5  | The distance between left and right tires, on the horizontal axis. |
 |  FrontTiresModelPath  | text | empty | The relative virtual path to the OBJ model used for the front tires. If this is left empty, default tires will be used.  |
 |  BackTiresModelPath  | text | empty  |  The relative virtual path to the OBJ model used for the back tires. If this is left empty, the same model as the front tires will be used. |
-|  HeadlightsColor  |    |
+|  HeadlightsColor  |  [Color](https://wiki.trackmasters.louve.systems/read/home/create-trackparts.md#colors)  | `r:1  g:1  b:1` | The color used for headlights. |
 |  HeadlightsHeight  |   0.448314607  |
 |  FrontHoverPointsPosition  |   1.36629212  |
 |  RearHoverPointsPosition  |   -1.36629212  |
