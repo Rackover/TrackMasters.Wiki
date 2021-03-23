@@ -56,7 +56,7 @@ If you're unsure about what values should some of these properties have, do not 
 
 
 :::info
-Not all of these values can be edited with the vehicle editor. The vehicle editor takes care of some of these automatically (hover points are placed automatically depending on the tires, headlights are always white, etc) and only a single tire model can be given (same model for front and rear tires). 
+Not all of these values can be edited with the vehicle editor. The vehicle editor takes care of some of these automatically (hover points are placed automatically depending on the tires, headlights are always white, etc) and only a single tire model can be given (same model for front and rear tires). The sound and pitch of the engine are also decided automatically depending on the given weight.
 :::
 
 ### Example
