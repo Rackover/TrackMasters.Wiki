@@ -40,7 +40,7 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  FrontTiresPosition  | number | 1.25  | The position of the front tires relative to the center of the car (0), on the forward axis. | 
 |  RearTiresPosition  |   number | -1.90 | The position of the rear tires relative to the center of the car (0), on the forward axis. | 
 |  TiresHeight  |  number |  -0.05  | The position of all tires relative to the center of the car (0), on the vertical axis. |
-|  TiresSpacing  |  number | 1.5  | The distance between left and right tires |
+|  TiresSpacing  |  number | 1.5  | The distance between left and right tires, on the horizontal axis. |
 |  FrontTiresModelPath  |   MODELS/SUPERC_T.OBJ  |
 |  BackTiresModelPath  |   ''  |
 |  HeadlightsColor  |    |
