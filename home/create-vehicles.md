@@ -95,6 +95,12 @@ HoverPointsSpacing: 1.5
 ## Vehicle model
 The vehicle model is a single OBJ file, that can be placed in any location under the `VEHICLES/` directory. Usually, it is good practice to either create single subfolder (Call if `MODELS`if you like) for all the cars of your mod, or to create a folder named after your vehicle to store the vehicle and tire models under it. 
 
+:::warning
+Due to the way OBJs are imported in TrackMasters, it is advised against putting any MTL files in your vehicle's subfolder, even if unused. It is highly recommended to export your OBJ without any materials.
+Under Blender, this can be done by unticking the following checkbox during export:
+![do not export materials.png](/_contents/blender/do not export materials.png)
+:::
+
 
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
