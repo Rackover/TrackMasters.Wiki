@@ -39,7 +39,7 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  AirControlAmount  |   positive number | 0.15  | How much of the vehicle's control remains when it is floating in the air above a **fan**. This is not a general, all purpose air control. Air control is only available when floating because of a fan. |
 |  FrontTiresPosition  | number | 1.25  | The position of the front tires relative to the center of the car (0), on the forward axis. | 
 |  RearTiresPosition  |   number | -1.90 | The position of the rear tires relative to the center of the car (0), on the forward axis. | 
-|  TiresHeight  |   -0.0471910127  |
+|  TiresHeight  |  number |  -0.05  |  |
 |  TiresSpacing  |   1.38764036  |
 |  FrontTiresModelPath  |   MODELS/SUPERC_T.OBJ  |
 |  BackTiresModelPath  |   ''  |
