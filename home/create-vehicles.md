@@ -18,13 +18,13 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 
 | Property | Type | Default value | Description |
 | -------- | -------- | -------- |
-|  Id  |   text  | **MUST be filled with the ID of your vehicle**, or it will not be loaded. Can be any string. |
-|  ModelPath  |   text  | The relative virtual path to the OBJ model used for this vehicle. |
-|  ColorCount  |   number (0-2)  | How many colors can be picked for this vehicle (zero, one or two) |
-|  PitchMultiplier  | number | By how much will the engine sound of the car be increased or lowered when accelerating or deccelerating |
-|  EngineType  |  text | Can be either HEAVY, LIGHT or MEDIUM. Affects the engine sound and the behaviour of its pitch.
-|  Weight  |   positive number | The heavier a car is, the more likely it is to push other cars around when bumping in them. |
-|  Acceleration  |  positive number  | At which speed does the vehicle reach its maximum speed. |
+|  Id  |   text  | N/A | **MUST be filled with the ID of your vehicle**, or it will not be loaded. Can be any string. |
+|  ModelPath  |  text  | N/A | The relative virtual path to the OBJ model used for this vehicle. |
+|  ColorCount  |   number (0-2)  | 2 | How many colors can be picked for this vehicle (zero, one or two) |
+|  PitchMultiplier  | number | 1 | By how much will the engine sound of the car be increased or lowered when accelerating or deccelerating |
+|  EngineType  |  text | MEDIUM | Can be either HEAVY, LIGHT or MEDIUM. Affects the engine sound and the behaviour of its pitch.
+|  Weight  |   positive number | 2 |The heavier a car is, the more likely it is to push other cars around when bumping in them. |
+|  Acceleration  |  positive number  |  | At which speed does the vehicle reach its maximum speed. |
 |  MaxSpeed  |   positive number | The maximum speed that this vehicle can reach. _Note: This value uses an arbitrary unit, where each unit is equivalent to 4kph. A max speed of 10 = 40 kph._|
 |  TurnSpeed  |  positive number | How fast does the vehicle reach its maximum turn amplitude when turning.  |
 |  MaxTurn  |   positve number | How tight this vehicle's turns can be. The higher this value is, the tightest the vehicle will turn.  |
