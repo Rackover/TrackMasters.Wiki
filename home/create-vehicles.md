@@ -139,6 +139,9 @@ Primary and secondary colors, aswell as headlight colors, will not work on tires
 ![tire UV.png](/_contents/blender/tire UV.png)
 
 # Using the vehicle editor
+The vehicle editor is mainly intended as a way to place the tires on your car easily, aswell as to edit the handling and behaviour of your car with simplicity.
+![vehicle editor.png](/_contents/tools/vehicle editor.png)
+
 
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
