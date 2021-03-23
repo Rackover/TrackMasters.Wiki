@@ -93,7 +93,7 @@ HoverPointsSpacing: 1.5
 ```
 
 ## Vehicle model
-
+The vehicle model is a single OBJ file, that can be placed in any location under the `VEHICLES/` directory. Usually, it is good practice to either create single subfolder (Call if `MODELS`if you like) for all the cars of your mod, or to create a folder named after your vehicle to store the vehicle and tire models under it. 
 
 
 # Full example
