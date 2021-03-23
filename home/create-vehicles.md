@@ -44,8 +44,8 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  FrontTiresModelPath  | text | empty | The relative virtual path to the OBJ model used for the front tires. If this is left empty, default tires will be used.  |
 |  BackTiresModelPath  | text | empty  |  The relative virtual path to the OBJ model used for the back tires. If this is left empty, the same model as the front tires will be used. |
 |  HeadlightsColor  |  [Color](https://wiki.trackmasters.louve.systems/read/home/create-trackparts.md#colors)  | `r:1  g:1  b:1` | The color used for headlights. |
-|  HeadlightsHeight  |   0.448314607  |
-|  FrontHoverPointsPosition  |   1.36629212  |
+|  HeadlightsHeight  |   0.332  | Height of the headlights relative to the center of the car (0). The headlights are usually placed inside the car to get a nice gradient on the track elements and avoid visual glitches. |
+|  FrontHoverPointsPosition  |   1.25  | The **hover points** are the anchor points used to push the car away from the ground and simulate correct car physics. Each car has 4 hover points, and they are usually placed at the exact same position as the tires, but slightly above (0.1 or 0.2 meters higher on the vertical axis).  |
 |  RearHoverPointsPosition  |   -1.36629212  |
 |  HoverPointsHeight  |   0.0528089888  |
 |  HoverPointsSpacing  |   1.38764036  |
