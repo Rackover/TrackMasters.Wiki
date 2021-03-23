@@ -102,7 +102,7 @@ The vehicle model is a single OBJ file, that can be placed in any location under
 :::warning
 Due to the way OBJs are imported in TrackMasters, it is advised against putting any MTL files in your vehicle's subfolder, even if unused. It is highly recommended to export your OBJ without any materials.
 Under Blender, this can be done by unticking the following checkbox during export:
-![do not export materials.png](/_contents/blender/do not export materials.png)
+![do not export materials.png](/_contents/blender/do%20not%20export%20materials.png)
 :::
 
 ### Pivot
@@ -116,7 +116,7 @@ For your car to work correctly with these colors, you need to map your UVs to th
 :::download /_contents/downloadable/T_car_composite.png :::
 
 Take a good look at the top left corner of the texture. This area is the **palette** of the texture, and this is where your UVs should be placed. Cars can only have solid colors, and the palette provides a total of 7 colors:
-![uv indexes.png](/_contents/blender/uv indexes.png)
+![uv indexes.png](/_contents/blender/uv%20indexes.png)
 1. **The primary color** of the car (represented green, chosen)
 2. **The secondary color** of the car (represented red, chosen by the player)
 3. A front headlights color (affected by the time of day)
