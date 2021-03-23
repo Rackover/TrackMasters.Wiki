@@ -135,8 +135,11 @@ The pivot for custom tire models should be at the exact center of the tire, on a
 ![tire pivot.png](/_contents/blender/tire pivot.png)
 
 ### Tires UV
-Primary and secondary colors will not work on tires, and only the shades of grey can be used. 
+Primary and secondary colors, aswell as headlight colors, will not work on tires. So far, only the shades of grey can be used. 
 ![tire UV.png](/_contents/blender/tire UV.png)
+
+# Using the vehicle editor
+
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
 :::download /_contents/modpacks/ADDITIONALCARS.PAK :::
