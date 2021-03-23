@@ -30,9 +30,9 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  MaxTurn  |   positve number | How tight this vehicle's turns can be. The higher this value is, the tightest the vehicle will turn.  |
 |  ForwardFriction  |  positive number | The higher this value is, the more the vehicle will deccelerate naturally when no inputs are given. |
 |  TurnFriction  |  positive number |  In absence of steering input, the higher this value is the quicker the vehicle's wheel will reset. If this value is too low, a single short steering input will leave the car turning for a little while.  |
-|  TurnSpeedReduction  |   0.300000012  |
-|  Inertia  |   0.300000012  |
-|  SpinForceWhenTurning  |   0  |
+|  TurnSpeedReduction  |   positive number (0-1) By how much is the speed of the vehicle reduced when it steers.  |
+|  Inertia  |   positive number (0-1)  | Increasing this value will make the throttle input more "mellow". With a high "inertia" value, a forward input will linger for a little while after the forward key is released. |
+|  SpinForceWhenTurning  |  positive number  | By how much does steering also makes the vehicle spin on the vertical axis |
 |  BackpedalSpeedAmount  |   0.600000024  |
 |  GroundRepulsion  |   8  |
 |  GroundCheckLength  |   0.600000024  |
