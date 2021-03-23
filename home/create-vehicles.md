@@ -36,9 +36,9 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  BackpedalSpeedAmount  | positive number (0-1) | 0.6 | How much of the max speed is available when backpedaling |
 |  GroundRepulsion  | positive number |  6  | How much does the ground repel the car. Increasing this value will make the car more bouncy. | 
 |  GroundCheckLength  |  positive number | 0.6 | How far from the ground can the car be before starting to be repelled. If the vehicle has issues with ground collision (like jumping from the ground when the speed reaches a certain threshold), increase this value to make the car a little more stable. This value should also stay correlated with the size of the tires: for bigger tires, increase this value accordingly.
-|  AirControlAmount  |   0.1150000006  |
-|  FrontTiresPosition  |   1.25  |
-|  RearTiresPosition  |   -1.36629212  |
+|  AirControlAmount  |   positive number | 0.15  | How much of the vehicle's control remains when it is floating in the air above a **fan**. This is not a general, all purpose air control. Air control is only available when floating because of a fan. |
+|  FrontTiresPosition  | number | 1.25  | The position of the front tires relative to the center of the car (0), on the forward axis. | 
+|  RearTiresPosition  |   number | -1.90 | The position of the rear tires relative to the center of the car (0), on the forward axis. | 
 |  TiresHeight  |   -0.0471910127  |
 |  TiresSpacing  |   1.38764036  |
 |  FrontTiresModelPath  |   MODELS/SUPERC_T.OBJ  |
