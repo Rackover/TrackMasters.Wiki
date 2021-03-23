@@ -41,8 +41,8 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  RearTiresPosition  |   number | -1.90 | The position of the rear tires relative to the center of the car (0), on the forward axis. | 
 |  TiresHeight  |  number |  -0.05  | The position of all tires relative to the center of the car (0), on the vertical axis. |
 |  TiresSpacing  |  number | 1.5  | The distance between left and right tires, on the horizontal axis. |
-|  FrontTiresModelPath  |   MODELS/SUPERC_T.OBJ  |
-|  BackTiresModelPath  |   ''  |
+|  FrontTiresModelPath  | text | empty | The relative virtual path to the OBJ model used for the front tires. If this is left empty, default tires will be used.  |
+|  BackTiresModelPath  | text | empty  |  The relative virtual path to the OBJ model used for the back tires. If this is left empty, the same model as the front tires will be used. |
 |  HeadlightsColor  |    |
 |  HeadlightsHeight  |   0.448314607  |
 |  FrontHoverPointsPosition  |   1.36629212  |
