@@ -51,7 +51,12 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  HoverPointsSpacing  |number |   1.5  | ^^ |
 
 :::info
-If you're unsure about what values should some of these properties have, do not worry: you can leave them to their default value for now
+If you're unsure about what values should some of these properties have, do not worry: you can leave them to their default value for now.
+:::
+
+
+:::info
+Not all of these values can be edited with the vehicle editor. The vehicle editor takes care of some of these automatically (hover points are placed automatically depending on the tires, headlights are always white, etc) and only a single tire model can be given (same model for front and rear tires). 
 :::
 
 ### Example
@@ -106,7 +111,7 @@ When modeling your vehicle, it is advised to keep the pivot centered relative to
 The pivot should be, on the vertical axis, right under your vehicle. This is best practice and not actually mandatory, but it will make placing the tires later easier.
 ![pivot.png](/_contents/blender/pivot.png)
 
-
+### 
 
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
