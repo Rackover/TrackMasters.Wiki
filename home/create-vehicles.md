@@ -14,7 +14,44 @@ Each vehicle is made of at least two files :
 * Zero, one or two tire models (OBJ format aswell) depending on if you want your vehicle to use the default tires (zero), a custom tire model (one), or a custom tire model for the front tires and another custom model for the rear tires.
 
 ## The definition file
-The vehicle definition (internally called `vehicle sheet`) contains a lot of information, ranging from visuals (tires position, headlights position and color, ...) to handling (max speed, acceleration).
+The vehicle definition (internally called `vehicle sheet`) contains a lot of information, ranging from visuals (tires position, headlights position and color, ...) to handling (max speed, acceleration). This file is a YML text file, and is expected to contain the following informations:
+
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+|  Id  |   SuperCooper  |
+|  ModelPath  |   MODELS/SUPERC.OBJ  |
+|  ColorCount  |   2  |
+|  PitchMultiplier  |   0.800000012  |
+|  EngineType  |   HEAVY  |
+|  Weight  |   7  |
+|  Acceleration  |   0.200000003  |
+|  MaxSpeed  |   100  |
+|  TurnSpeed  |   3  |
+|  MaxTurn  |   5  |
+|  ForwardFriction  |   4  |
+|  TurnFriction  |   10  |
+|  TurnSpeedReduction  |   0.300000012  |
+|  Inertia  |   0.300000012  |
+|  SpinForceWhenTurning  |   0  |
+|  BackpedalSpeedAmount  |   0.600000024  |
+|  GroundRepulsion  |   8  |
+|  GroundCheckLength  |   0.600000024  |
+|  AirControlAmount  |   0.150000006  |
+|  FrontTiresPosition  |   1.25  |
+|  RearTiresPosition  |   -1.36629212  |
+|  TiresHeight  |   -0.0471910127  |
+|  TiresSpacing  |   1.38764036  |
+|  FrontTiresModelPath  |   MODELS/SUPERC_T.OBJ  |
+|  BackTiresModelPath  |   ''  |
+|  HeadlightsColor  |    |
+|  HeadlightsHeight  |   0.448314607  |
+|  FrontHoverPointsPosition  |   1.36629212  |
+|  RearHoverPointsPosition  |   -1.36629212  |
+|  HoverPointsHeight  |   0.0528089888  |
+|  HoverPointsSpacing  |   1.38764036  |
+
+
+
 
 
 # Example
