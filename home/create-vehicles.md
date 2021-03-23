@@ -34,8 +34,8 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  Inertia  |   positive number (0-1)  | 0.7 | Increasing this value will make the throttle input more "mellow". With a high "inertia" value, a forward input will linger for a little while after the forward key is released. |
 |  SpinForceWhenTurning  |  positive number  | 0.4 | By how much does steering also makes the vehicle spin on the vertical axis |
 |  BackpedalSpeedAmount  | positive number (0-1) | 0.6 | How much of the max speed is available when backpedaling |
-|  GroundRepulsion  | positive number |  6  | How much does the ground repel the car
-|  GroundCheckLength  |   0.600000024  |
+|  GroundRepulsion  | positive number |  6  | How much does the ground repel the car. Increasing this value will make the car more bouncy. | 
+|  GroundCheckLength  |  positive number | 0.6 | How far from the ground can the car be before starting to be repelled. If the vehicle has issues with ground collision (like jumping from the ground when the speed reaches a certain threshold), increase this value to make the car a little more stable. This value should also stay correlated with the size of the tires: for bigger tires, increase this value accordingly.
 |  AirControlAmount  |   0.1150000006  |
 |  FrontTiresPosition  |   1.25  |
 |  RearTiresPosition  |   -1.36629212  |
