@@ -117,10 +117,10 @@ For your car to work correctly with these colors, you need to map your UVs to th
 
 Take a good look at the top left corner of the texture. This area is the **palette** of the texture, and this is where your UVs should be placed. Cars can only have solid colors, and the palette provides a total of 7 colors:
 ![uv indexes.png](/_contents/blender/uv indexes.png)
-1. The primary color of the car (represented green, chosen)
-2. The secondary color of the car (represented red, chosen by the player)
-3. A front headlights color
-4. A rear headlights color
+1. **The primary color** of the car (represented green, chosen)
+2. **The secondary color** of the car (represented red, chosen by the player)
+3. A front headlights color (affected by the time of day)
+4. A rear headlights color (affected by the time of day)
 5. 6. 7. Three shades of grey
 
 
