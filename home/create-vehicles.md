@@ -123,7 +123,8 @@ Take a good look at the top left corner of the texture. This area is the **palet
 4. A rear headlights color (affected by the time of day)
 5. 6. 7. Three shades of grey
 
-
+You can rearrange your UVs to form single dots that you can place accross the palette to shade your car in different manners.
+![UV.png](/_contents/blender/UV.png)
 
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
