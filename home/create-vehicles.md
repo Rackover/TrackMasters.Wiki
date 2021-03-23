@@ -16,7 +16,7 @@ Each vehicle is made of at least two files :
 ## The definition file
 The vehicle definition (internally called `vehicle sheet`) contains a lot of information, ranging from visuals (tires position, headlights position and color, ...) to handling (max speed, acceleration). This file is a YML text file, and is expected to contain the following informations:
 
-| Property | Type | Description |
+| Property | Type | Default value | Description |
 | -------- | -------- | -------- |
 |  Id  |   text  | **MUST be filled with the ID of your vehicle**, or it will not be loaded. Can be any string. |
 |  ModelPath  |   text  | The relative virtual path to the OBJ model used for this vehicle. |
@@ -33,7 +33,7 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  TurnSpeedReduction  |   positive number (0-1) By how much is the speed of the vehicle reduced when it steers.  |
 |  Inertia  |   positive number (0-1)  | Increasing this value will make the throttle input more "mellow". With a high "inertia" value, a forward input will linger for a little while after the forward key is released. |
 |  SpinForceWhenTurning  |  positive number  | By how much does steering also makes the vehicle spin on the vertical axis |
-|  BackpedalSpeedAmount  |   0.600000024  |
+|  BackpedalSpeedAmount  |   |
 |  GroundRepulsion  |   8  |
 |  GroundCheckLength  |   0.600000024  |
 |  AirControlAmount  |   0.150000006  |
@@ -50,7 +50,9 @@ The vehicle definition (internally called `vehicle sheet`) contains a lot of inf
 |  HoverPointsHeight  |   0.0528089888  |
 |  HoverPointsSpacing  |   1.38764036  |
 
-
+:::info
+If you're unsure about what values should some of these properties have, do not worry: you can leave them to their default value for now
+:::
 
 
 
