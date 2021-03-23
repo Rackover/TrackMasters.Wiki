@@ -126,6 +126,9 @@ Take a good look at the top left corner of the texture. This area is the **palet
 You can rearrange your UVs to form single dots that you can place accross the palette to shade your car in different manners.
 ![UV.png](/_contents/blender/UV.png)
 
+:::info
+You can use either the primary and secondary color, just the primary, or none of them in your UVs. However, this number must be reflected in the `ColorCount` property of the definition: otherwise, some parts of the vehicle may be rendererd incorrectly.
+:::
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
 :::download /_contents/modpacks/ADDITIONALCARS.PAK :::
