@@ -110,7 +110,10 @@ When modeling your vehicle, it is advised to keep the pivot centered relative to
 The pivot should be, on the vertical axis, right under your vehicle. This is best practice and not actually mandatory, but it will make placing the tires later easier.
 ![pivot.png](/_contents/blender/pivot.png)
 
-### 
+### UV and texturing
+Although you cannot indicate a texture for your car, the game will apply a texture on it, the colors of which will be decided by the player.
+For your car to work correctly with these colors, you need to map your UVs to the game's vehicle texture. This texture is provided below:
+
 
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
