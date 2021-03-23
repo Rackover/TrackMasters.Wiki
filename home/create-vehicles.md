@@ -104,6 +104,9 @@ Under Blender, this can be done by unticking the following checkbox during expor
 ### Pivot
 When modeling your vehicle, it is advised to keep the pivot centered relative to your vehicle (equivalent distance from the front and rear of the vehicle, and horizontally centered). That is however not true for the vertical axis.
 The pivot should be, on the vertical axis, right under your vehicle. This is best practice and not actually mandatory, but it will make placing the tires later easier.
+![pivot.png](/_contents/blender/pivot.png)
+
+
 
 # Full example
 The game comes with an example modpack containing two vehicles for you to examine and play with. The sources of this modpack are included in the `SAMPLEMP/AdditionalCars` folder in the game's root directory, but you can also download the compiled modpack below if you need it:
